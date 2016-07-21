@@ -23,6 +23,11 @@ a:hover {
 
 a:focus {
 	outline: none!important;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
 }
 
 h1 {
@@ -97,10 +102,26 @@ h1 {
 	max-height: 600px;
 }
 
+.carousel-caption {
+	left: 0;
+	top: 0;
+	bottom: auto;
+	height: auto;
+	padding: 30px;
+	margin-top: 70px;
+	background-color: rgba(242,240,242, 0.4);
+}
+
+.carousel-caption h2 {
+	font-size: 3em;
+	text-shadow:3px 3px black;
+
+}
+
 #slider .container {
 	position: absolute;
 	z-index: 2;
-	top: 450px;
+	top: 800px;
 	left: 0;
 	right: 0;
 	margin-left: auto;
@@ -153,6 +174,23 @@ h1 {
 	background-color: #929092;
 }
 
+#services {
+	margin-top: 100px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+#services h2 {
+	padding: 30px;
+}
+
+#services a:hover {
+	color: #0000f5;
+}
+
+#services h4 {
+	font-size: 1.1em;
+}
+
 footer {
 	background-color: rgba(255, 255, 255, 0.7);
 	margin-top: 80px;
@@ -177,7 +215,7 @@ footer .row ul li:first-child, footer .row ul li:nth-child(2) {
 
 @media (max-width: 1200px) {
 	#slider .container {
-		display: none;
+		position: static;
 	}
 
 	.carousel-inner .item img,.carousel-inner .active img {
@@ -219,6 +257,10 @@ footer .row ul li:first-child, footer .row ul li:nth-child(2) {
 
 	.carousel-inner .item img,.carousel-inner .active img {
 		height: 220px;
+	}
+
+	.carousel-caption h2 {
+		font-size: 1em;
 	}
 
 	footer .row ul li:first-child, footer .row ul li:nth-child(2) {
