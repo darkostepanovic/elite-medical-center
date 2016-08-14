@@ -17,6 +17,12 @@ body {
     background-color: #0000f5;
 }
 
+.affix {
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
 h1, h2, h3, h4 {
 	text-transform: uppercase;
 }
@@ -189,6 +195,18 @@ h1 {
 	background-color: #929092;
 }
 
+#oklinici, #otimu {
+	padding: 50px;
+}
+
+#oklinici .outer-wrapper, #otimu .outer-wrapper {
+	background-color: rgba(255,255,255,0.8);
+}
+
+#oklinici h2, #otimu h2 {
+	margin:0 0 20px 0;
+}
+
 #services {
 	margin-top: 100px;
 	background-color: rgba(255, 255, 255, 0.7);
@@ -206,7 +224,28 @@ h1 {
 	font-size: 1.1em;
 }
 
-#team {
+.usluge-img {
+	padding: 20px 0;
+	width: 250px;
+}
+
+.img-left {
+	margin-right: 20px;
+}
+
+.img-right {
+	margin-left: 20px;
+}
+
+.img-first {
+	padding-top: 0!important;
+}
+
+#otimu {
+	margin-top: 100px;
+}
+
+#team, #map, #cenovnik {
 	background-color: rgba(255, 255, 255, 0.7);
 	margin-top: 100px;
 }
@@ -257,6 +296,24 @@ h1 {
 	text-decoration: underline;
 	cursor: pointer;
 }
+
+.map-wrapper {
+	padding: 70px;
+}
+
+.kontakt-wrapper {
+	padding: 130px;
+}
+
+.pricelist td {
+	text-align: left;
+}
+
+#cenovnik-link:hover {
+	color: #000!important;
+	text-decoration: underline;
+}
+
 
 footer {
 	background-color: rgba(255, 255, 255, 0.7);
@@ -313,6 +370,10 @@ footer .row ul li:first-child, footer .row ul li:nth-child(2) {
 }
 
 @media (max-width: 768px) {
+
+	#navbar1 {
+		position: static!important;
+	}
 
 	.navbar-toggle {
 		float: none;

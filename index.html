@@ -4,13 +4,13 @@
 	<title>Elite medical center</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins:700,500,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 <body>
 
@@ -32,13 +32,14 @@
 			    </button>
 			</div>
 
-			<div id="navbar1" class="navbar-collapse collapse text-center">
+			<div id="navbar1" class="navbar-collapse collapse text-center" data-spy="affix" data-offset-top="294">
 		    	<ul class="nav navbar-nav">
-					<li><a class="nav-link" href="#">POČETNA</a></li>
-			      	<li><a class="nav-link" href="#">O NAMA</a></li> 
-			      	<li><a class="nav-link" href="#">USLUGE</a></li>
-			      	<li><a class="nav-link" href="#">CENOVNIK</a></li> 
-			      	<li><a class="nav-link" href="#">KONTAKT</a></li>
+					<li><a class="nav-link" id="home" href="#">POČETNA</a></li>
+			      	<li><a class="nav-link" id="about" href="#">O NAMA</a></li> 
+			      	<li><a class="nav-link" id="service" href="#">USLUGE</a></li>
+			      	<li><a class="nav-link" id="team-scroll"href="#">NAŠ TIM</a></li> 
+			      	<li><a class="nav-link" id="cenovnik-scroll" href="#">CENOVNIK</a></li>
+			      	<li><a class="nav-link" id="contact" href="#">KONTAKT</a></li>
 				</ul>
 	    	</div>
 
@@ -122,7 +123,7 @@
 
 		<div class="container">
 
-			<div class="col-md-12 content-title text-center">
+			<div class="col-md-12 content-title text-center" id="about-header">
 				<h2><strong>Dobrodošli u Elite medical center</strong></h2>
 				<div class="divider"></div>
 				<h3>uskospecijalizovanu bolnicu za opštu, abdominalnu i endokrinu hirurgiju</h3>
@@ -149,14 +150,20 @@
 						<img src="img/homepage_content.jpg">
 				</div>
 			</div>
-
 		</div>		
+	</section>
+
+	<section class="container" id="oklinici">
+		<div class="outer-wrapper">
+		<h2 class="text-center">O bolnici</h2>
+		<p>EMC je uskospecijalizovana bolnica za opštu, abdominalnu i endokrinu hirurgiju. Osnovana je sa ciljem da pruži prvoklasno lečenje i da uzdigne medicinsku negu na najviši mogući nivo. Obezbedili smo najsavremeniju dijagnostiku brojnih stanja i mogućnost najboljeg lečenja metodama koje koriste vrhunski svetski stručnjaci uz najviši stepen bezbednosti pri izvođenju svih intervencija. Prihvatamo rizik da rešimo najteže zdravstvene slučajeve bez čekanja. Primenjujemo inovativnu i najkvalitetniju tehnologiju i instrumenate koji nam omogućavaju bezbedno lečenje i brz, manje bolan oporavak i smanjenje postoperativnih komplikacija. Pružamo detaljnu informisanost pacijenatima o intervencijama koje se rade uz mogućnost posmatranja istih od strane njihovih najbližih, kao i video zabeležene procedure koje dobijaju nakon završene intervencije. Brigu o pacijentima smo podigli na najviši nivo, uključujući i intenzivnu terapiju sa najmodernijim respiratorima i monitoringom, koja u potpunosti ispunjava sve zakonske norme, uz prisustvo stručnog kadra koji omogućava stalni nadzor. Kompletna dvadesetčetvoročasovna nega pacijenata u terminalnoj fazi bolesti, sa olakšavanjem bola i neprestanom brigom. Obavezna je potpuna diskrecija i poštovanje svih etičkih i moralnih normi.</p>
+		</div>
 	</section>
 
 	<section class="container-fluid" id="services">
 		<div class="container">
 
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="services-scroll">
 
 				<h2 class="text-center">NAŠE USLUGE</h2>
 				<div class="divider"></div>
@@ -173,7 +180,7 @@
 					      <div class="panel-body">
 					      	<p class="first">
 				      		<strong>Jetra</strong>
-				      		- “laboratorija organizma” je najveći parenhimatozni organ u ljudsko organizmu i najveći broj funkcija obavlja koje su od vitalne važnosti. Ali je upravo zbog izloženosti brojnim štetnim materijama podložna nastanku mnogih bolesti, pored drugih urođenih bolesti, sistemskih, autoimunih.</p><br>
+				      		<img src="img/usluge-img/jetra.jpg" class="usluge-img img-right img-first pull-right">- “laboratorija organizma” je najveći parenhimatozni organ u ljudsko organizmu i najveći broj funkcija obavlja koje su od vitalne važnosti. Ali je upravo zbog izloženosti brojnim štetnim materijama podložna nastanku mnogih bolesti, pored drugih urođenih bolesti, sistemskih, autoimunih.</p><br>
 				      		<strong>Apscesi jetre</strong><br><br>
 				      		<p>
 				      		Apsces u jetri jeste gnojna kolekcija koja je učaurena u tkivu jetre, a izazivaju ga brojne bakterije iz ljudskog organizma ili koje su unete prilikom neke medicinske procedure. Predstavlja vrlo ozbiljno stanje koje se može komplikovati rupturom i poremećajem opšteg stanja, pa se mora što pre lečiti. Jedini adekvatan način lečenja predstavlja perkutano dreniranje gnojne kolekcije uz dodatnu antibiotsku terapiju. U nekim slučajevima je neophodno i hirurško lečenje apscesa.</p><br>
@@ -200,7 +207,7 @@
 
 				      		<strong>Akutna upala žučne kese</strong><br>
 				      		<p>
-				      		Najčešće se javlja zbog prisustva kamenja i predstavlja veoma čest problem današnjice, a usled ponavljanih akutnih upala ovaj proces prelazi u hronični i sa sobom nosi brojne simptome koji otežavaju život pacijenata. Jedina metoda kojom se resave ovaj problem jeste uklanjanje žučne kese (holecistektomija). Klasična holecistektomija podrazumeva upotrebu standardnog laparotomijskog seta, bez potrebe za drugim dodatnim instrumentarijem. Pristup je ili subkostalnim rezom ili medijalnim supraumbilikalnim rezom sa holecistektomijom urađenom standardnim hirurškim instrumentima. Trbuh se drenira u većini slučajeva, a operativna rana se zatvara po uzusima klasične abdominalne hirurgije. Laparoskopska holecistektomija se radi sa standardnim laparoskopskim stubom. Operativni tim sačinjavaju dva hirurga. Operacija traje kratko (oko jedan čas), na trbuhu ostraju tragovi četiri mala reza, a pacijent sutradan odlazi kuci bez bolova i drugih tegoba. Kompletan oporavak se postiže za nekoliko dana. Ova operacija je izuzetno komforna za pacijente.</p><br>
+				      		<img src="img/usluge-img/zucnakesa.jpg" class="usluge-img img-left pull-left">Najčešće se javlja zbog prisustva kamenja i predstavlja veoma čest problem današnjice, a usled ponavljanih akutnih upala ovaj proces prelazi u hronični i sa sobom nosi brojne simptome koji otežavaju život pacijenata. Jedina metoda kojom se resave ovaj problem jeste uklanjanje žučne kese (holecistektomija). Klasična holecistektomija podrazumeva upotrebu standardnog laparotomijskog seta, bez potrebe za drugim dodatnim instrumentarijem. Pristup je ili subkostalnim rezom ili medijalnim supraumbilikalnim rezom sa holecistektomijom urađenom standardnim hirurškim instrumentima. Trbuh se drenira u većini slučajeva, a operativna rana se zatvara po uzusima klasične abdominalne hirurgije. Laparoskopska holecistektomija se radi sa standardnim laparoskopskim stubom. Operativni tim sačinjavaju dva hirurga. Operacija traje kratko (oko jedan čas), na trbuhu ostraju tragovi četiri mala reza, a pacijent sutradan odlazi kuci bez bolova i drugih tegoba. Kompletan oporavak se postiže za nekoliko dana. Ova operacija je izuzetno komforna za pacijente.</p><br>
 
 				      		<strong>Benigni tumori žučne kese</strong><br>
 				      		<p>
@@ -219,13 +226,16 @@
 					    <div id="pankreas-accordion" class="panel-collapse collapse">
 					      <div class="panel-body">
 				      		<strong>Pankreatitis</strong><br>
-							<p>Akutni pankreatitis (upala pankreasa) je vrlo teško stanje koje se može komplikovati nastankom nekroze ili pak prelaska u hronično stanje nakon sanacije primarnog akutnog procesa, a oba procesa sa sobom nose brojne komplikacije. U oba slučaja operacija je jedino rešenje. Resekcionim operacijama se odstranjuju delovi pankreasa ili ceo pankreas, često i delovi susednih organa (cefalična duodenopankreatektomija, distalna pankreatektomija i totalna duodenopankreatektomija) , a uz to je često neophodno uspostaviti anastomoze (komunikaciju) sa želucem ili tankim crevom.</p><br>
+							<img src="img/usluge-img/pankreas.jpg" class="usluge-img img-right img-first pull-right"><p>Akutni pankreatitis (upala pankreasa) je vrlo teško stanje koje se može komplikovati nastankom nekroze ili pak prelaska u hronično stanje nakon sanacije primarnog akutnog procesa, a oba procesa sa sobom nose brojne komplikacije. U oba slučaja operacija je jedino rešenje. Resekcionim operacijama se odstranjuju delovi pankreasa ili ceo pankreas, često i delovi susednih organa (cefalična duodenopankreatektomija, distalna pankreatektomija i totalna duodenopankreatektomija) , a uz to je često neophodno uspostaviti anastomoze (komunikaciju) sa želucem ili tankim crevom.</p><br>
 							<strong>Ciste</strong><br>
 							<p>Nastaju kao posledica hronične upale pankreasa. Mogu da naruše funkciju i samog pankreasa, ali i okolnih organa. Hirurško lečenje se sastoji u anastomoziranju ciste sa želucem ili izolovanom crevnom vijugom.</p><br>
 							<strong>Benigni tumori</strong><br>
 							<p>Cistadenom je najčešći benigni tumor, koji može narušavati funkciju pankreasa i preporučuje se totalna ekscizija ovog tumora, pri čemu je nekada potrebno uraditi i resekciju dela pankreasa.</p><br>
 							<strong>Maligni tumori</strong><br>
 							<p>Ovo je vrlo čest maligni tumor koji je izuzetno agresivan i zahteva isto takvo lečenje. Jedino lečenje ovog tumora je hirurško, kojim se odstranjuju tumor i regionalne žlezde, kada nema metastaza u jetri i kod bolesnika u relativno dobrom opštem stanju, koji mogu da podnesu intervenciju. U slučaju da je tumor neresektabilan primenjuje se palijativno lečenje koje podrazumeva pravljenje anastomoza kako bi se ublažili simptomi bolesti i bila moguća ishrana pacijenata.</p><br>
+							<strong>Whipple−ova operacija</strong> je najčešće primenjivana operacija kako za maligne tumore pankreasa,tako i za benigne. Napredak u hirurškoj tehnici, anesteziji, antibiotici i razvoj intenzivne terapije
+							doveli su do značajnog poboljšanja postoperativnih rezultata lečenja i ova operacija je metoda izbora za lečenje malignih i benignih promena pankreasa. Operacija podrazumeva uklanjanje glave pankreasa, distalne polovine glavnog žučnog voda, žučne kese, dvanaestopalačnog creva i
+							pripadajućeg limfnog tkiva. Nakon resekcije radi se rekonstrukcija preostalog dela pankreasa sa	okolnim strukturama, najčešće tankim crevom.
 					      </div>
 					    </div>
 					</div>
@@ -241,11 +251,11 @@
 					      <div class="panel-body">
 					      	<p><strong>Hemoroidi</strong> su fibrovaskularni jastučići, normalna anatomska struktura, koja ima ulogu finog ztvaranja anusa i u regulaciji gasova i stolice. Sastoje od arterijskih i venskih krvnih sudova i fibrinskih niti. Kada se ti jasučići uvećaju i počnu da prave tegobe onda govorimo o hemoroidalnoj bolesti koja se karakteriše nizom simptoma koje otežavaju život pacijentu, a vrlo jednostavno se rešavaju. Za definitivno izlečenje jedino se preporučuje hirurško uklanjanje hemoroida. Postoji više procedura koje koristimo u tu svrhu.</p><br>
 							<strong>THD metoda</strong><br>
-							<p>THD metoda koja se radi u našoj klinici se zasniva na ultrazvučnom verifikovanju hemoroidalne arterije koja ishranjuje hemoroid i njenom podvezivanju, a nakon toga i podvezivanju ostatka hemoroida. Isto se uradi sa svim hemoroidima bilo da ih ima samo tri ili šest računajući i pomoćne. Potrebno je naglasiti da je ovo metoda izbora za sve krvareće hemoroide i da u našem dugogodišnjem iskustvu nismo imali slučajeve recidiva ,što ovu metodu svakako preporučuje kao metodu izbora. Takođe ono što se preporučuje je i lagan i relativno bezbolan postoperativni tok a i može se raditi u lokalnoj anesteziji i analgosedaciji koje su za pacijenta bezbednije od opšte anestezije.</p><br>
+							<img src="img/usluge-img/hemoroidi-THD.jpg" class="usluge-img img-right img-first pull-right"><p>THD metoda koja se radi u našoj klinici se zasniva na ultrazvučnom verifikovanju hemoroidalne arterije koja ishranjuje hemoroid i njenom podvezivanju, a nakon toga i podvezivanju ostatka hemoroida. Isto se uradi sa svim hemoroidima bilo da ih ima samo tri ili šest računajući i pomoćne. Potrebno je naglasiti da je ovo metoda izbora za sve krvareće hemoroide i da u našem dugogodišnjem iskustvu nismo imali slučajeve recidiva ,što ovu metodu svakako preporučuje kao metodu izbora. Takođe ono što se preporučuje je i lagan i relativno bezbolan postoperativni tok a i može se raditi u lokalnoj anesteziji i analgosedaciji koje su za pacijenta bezbednije od opšte anestezije.</p><br>
 							<strong>Hemoroidektomija</strong><br>
 							<p>Ova procedura lečanja hemoroida hirurškim putem podrazumeva otklanjanje hemoroidalnog tkiva sa mukozom i dela kože koja je uzročnik prolabiranja i krvarenja. Ova procedura se radi u opštoj anesteziji. U Evropi se najčešće primenjuje otvorena procedura, poznatija kao Milligan-Morgan kod koje se defekti na mukozi koji nastaju nakon procedure ne ušivaju. Pored ove metode, postoji i zatvorena metoda, odnosno Fergunsonova metoda kod koje se opisani defekti zašivaju.</p><br>
 							<strong>Ligasure- hemoroidektomija</strong><br>
-							<p>Ligasure- hemoroidektomija je metoda operativnog lečenja pri kojoj se aparatom Ligasure, koji radi pomoću radiofrekventne koagulacije krvnih sudova, pri čemu ne povećavajući bitno temperaturu okolnog tkiva, vrši praktično varenje glavne hemoroidalne arterije, a i ostalih arterijskih i venskih krvnih sudova u hemoroidu. Time se krvni sudovi zavare, a ostatak hemoroida iseče.Ne šije se mesto varenja i odsecanja hemoroida i rana zarasta per sekundam u narednom periodu. Tim se postupkom operišu i spoljašnji i unutrašnji hemoroidi.</p><br>
+							<img src="img/usluge-img/hemoroidi.jpg" class="usluge-img img-left pull-left"><p>Ligasure- hemoroidektomija je metoda operativnog lečenja pri kojoj se aparatom Ligasure, koji radi pomoću radiofrekventne koagulacije krvnih sudova, pri čemu ne povećavajući bitno temperaturu okolnog tkiva, vrši praktično varenje glavne hemoroidalne arterije, a i ostalih arterijskih i venskih krvnih sudova u hemoroidu. Time se krvni sudovi zavare, a ostatak hemoroida iseče.Ne šije se mesto varenja i odsecanja hemoroida i rana zarasta per sekundam u narednom periodu. Tim se postupkom operišu i spoljašnji i unutrašnji hemoroidi.</p><br>
 					      </div>
 					    </div>
 					</div>
@@ -254,12 +264,14 @@
 					    <div id="terminalna-acc" class="panel-heading">
 					      <h4 class="panel-title">
 					        <a id="terminalna-link" data-toggle="collapse" data-parent="#accordion" href="#terminalna-accordion">
-					        TERMINALNA (PALIJATIVNA) NEGA</a>
+					        TERMINALNA (PALIJATIVNA) I INTENZIVNA NEGA</a>
 					      </h4>
 					    </div>
 					    <div id="terminalna-accordion" class="panel-collapse collapse">
 					      <div class="panel-body">
-					      	<p>Nažalost, zbog sve veće učestaloti teških oboljenja poput maligniteta koje u nekom trenutku više nije moguće lečiti, susrećemo se svakodnevno sa sve većom problematikom kako pružiti što bolju negu koju zaslužuju, pacijentima koji nemaju izgleda za izlečenjem. Osim što se oni nalaze u nezamislivo teškoj situaciji, tu su i njihove porodice koje su suočene sa teškom situacijom voljene osobe. Kako bismo olakšali taj period pacijentima, ali i njihovim porodicama da bi imali što više vremena koje bi proveli zajedno, nego da brinu o medicinskoj nezi svojih bližnjih, osmislili smo kompletan program pružanja najbolje moguće nege za ove pacijente. Kako je bol najčešće najteži simptom u ovakvim stanjima, najvažnije je da okupiramo težak bol svim raspoloživim medikamentima, a osim toga da vršimo održavanje opšteg stanja pacijenata u smislu nadoknade tečnosti, ishrane, praćenja vitalnih funkcija, redovne lične higijene i svega što stanje pacijenata zahteva kako bismo im omogućili što bolju negu i olakšali stanje u kome se nalaze.</p>
+					      	<img src="img/usluge-img/terminalna-nega.jpg" class="usluge-img img-right img-first pull-right"><p>Nažalost, zbog sve veće učestaloti teških oboljenja poput maligniteta koje u nekom trenutku više nije moguće lečiti, susrećemo se svakodnevno sa sve većom problematikom kako pružiti što bolju negu koju zaslužuju, pacijentima koji nemaju izgleda za izlečenjem. Osim što se oni nalaze u nezamislivo teškoj situaciji, tu su i njihove porodice koje su suočene sa teškom situacijom voljene osobe. Kako bismo olakšali taj period pacijentima, ali i njihovim porodicama da bi imali što više vremena koje bi proveli zajedno, nego da brinu o medicinskoj nezi svojih bližnjih, osmislili smo kompletan program pružanja najbolje moguće nege za ove pacijente. Kako je bol najčešće najteži simptom u ovakvim stanjima, najvažnije je da okupiramo težak bol svim raspoloživim medikamentima, a osim toga da vršimo održavanje opšteg stanja pacijenata u smislu nadoknade tečnosti, ishrane, praćenja vitalnih funkcija, redovne lične higijene i svega što stanje pacijenata zahteva kako bismo im omogućili što bolju negu i olakšali stanje u kome se nalaze.</p>
+					      	<strong>JEDINICA INTENZIVNE TERAPIJE</strong>
+					      	<p><img src="img/usluge-img/intenzivna.jpg" class="usluge-img img-left pull-left">Jedinica intenzivne terapije opremljena je savremenim monitoringom, uz respirator, centralni kiseonik, defibrillator, aspirator, infuzionu pumpu. U ovoj jedinici se obavljaju tretmani vitalno ugroženih pacijenata, postoperativna stanja, kardiopulmonalna reanimacija i sva stanja koja su vitalno ugrožavajuća. Služba za anesteziju i reanimaciju obezbeđuje pružanje usluga opšte anestezije, lokalne, regionalne, spinalne, epiduralne i analgosedacije. Naš stručni kadar se bavi i terapijom bola po najnovijim svetskim vodičima, koja daje izvanredne rezultate. Sve vrste anestezije/ analgosedacije rade se savremenim metodama uz kontinuiran monitoring vitalnih parametara. Prema potrebi, transport vitalno ugroženih pacijenata se obavlja savremenim sanitetskim vozilom, opremljenim pratećom tehničkom opremom.</p>
 					      </div>
 					    </div>
 					</div>
@@ -273,7 +285,7 @@
 					    </div>
 					    <div id="collapse1" class="panel-collapse collapse">
 					      <div class="panel-body">
-					      	<p class="first">Promene debelog creva se danas vrlo jednostavno otkrivaju. Zbog toga karcinom debelog creva spada u karcinome koje je najlakše otkriti i izlečiti. Ukoliko se dijagnoza ove bolesti postavi u ranoj fazi, hiruškim lečenjem se postiže potpuno izlečenje.<br>Kolonoskopija je nesumnjivo “zlatni standard” u dijagnostici debelog creva. Uz pomoć kamere koja se nalazi na vrhu specijalnog savitljivog creva, detaljno se pregleda unutrašnja površina celog debelog creva do završnog dela tankog creva (oko 1,5m). Na ovaj način moguće je uočiti i najmanje promene na sluzokoži. Pregled je neugodan ukoliko se radi bez anestezije, dok je uz laku intravensku anesteziju prilično komforan.<br>
+					      	<p class="first"><img src="img/usluge-img/kolonoskopija.jpg" class="usluge-img img-right img-first pull-right">Promene debelog creva se danas vrlo jednostavno otkrivaju. Zbog toga karcinom debelog creva spada u karcinome koje je najlakše otkriti i izlečiti. Ukoliko se dijagnoza ove bolesti postavi u ranoj fazi, hiruškim lečenjem se postiže potpuno izlečenje.<br>Kolonoskopija je nesumnjivo “zlatni standard” u dijagnostici debelog creva. Uz pomoć kamere koja se nalazi na vrhu specijalnog savitljivog creva, detaljno se pregleda unutrašnja površina celog debelog creva do završnog dela tankog creva (oko 1,5m). Na ovaj način moguće je uočiti i najmanje promene na sluzokoži. Pregled je neugodan ukoliko se radi bez anestezije, dok je uz laku intravensku anesteziju prilično komforan.<br>
 					      	U toku kolonoskopije, ukoliko se uoči neka sumnjiva promena na sluzokoži debelog creva, obavezno se uradi biopsija, tj. uzima se tkivo promene koje se šalje na patohistološki pregled.</p>
 					      </div>
 					    </div>
@@ -288,7 +300,7 @@
 					    </div>
 					    <div id="collapse2" class="panel-collapse collapse">
 					      <div class="panel-body">
-					      <p class="first">Gastroskopija je procedura koja omogućava prikazivanje gornjih delova sistema organa za varenje hrane (jednjaka, želuca i početnog dela tankog creva). Endoskopska dijagnostika izvodi se endoskposkim instrumentom - gastroskopom - koji ima oblik dugačke fleksibilne cevi sa video kamerom na vrhu. Gastroskop se preko usta, korena jezika i ždrela plasira u navedene delove organa za varenje hrane. Gastroskopija se izvodi najčešće za dijagnostiku:
+					      <p class="first"><img src="img/usluge-img/gastroskopija.jpeg" class="usluge-img img-right img-first pull-right">Gastroskopija je procedura koja omogućava prikazivanje gornjih delova sistema organa za varenje hrane (jednjaka, želuca i početnog dela tankog creva). Endoskopska dijagnostika izvodi se endoskposkim instrumentom - gastroskopom - koji ima oblik dugačke fleksibilne cevi sa video kamerom na vrhu. Gastroskop se preko usta, korena jezika i ždrela plasira u navedene delove organa za varenje hrane. Gastroskopija se izvodi najčešće za dijagnostiku:
 						      <ul>
 						      	<li>gastritisa</li>
 						      	<li>čira</li>
@@ -313,7 +325,7 @@
 					      <div class="panel-body">
 								<p class="first">
 								<strong>Želudačna kila (hiatus hernia)</strong><br><br>
-								Hirurško lečenje hijatus hernije sprovodi se kod onih bolesnika koji imaju izražene simptome refluksne bolesti, kao i kod onih koji imaju velike hijatus hernije koje izazivaju tegobe poput povraćanja, bola, nadimanja i krvarenja. Hirurško lečenje se sastoji u vraćanju želuca u njegov normalan anatomski položaj u trbuh, ušivanju otvora na dijafragmi koji je obično jako proširen i formiranju takozvane fundoplikacije (deo želuca se omotava oko jednjaka sa ciljem da se spreči vraćanje želudačnog sadržaja u jednjak) koja može biti totalna i parcijalna.<br><br>
+								<img src="img/usluge-img/zeludac.jpg" class="usluge-img img-right img-first pull-right">Hirurško lečenje hijatus hernije sprovodi se kod onih bolesnika koji imaju izražene simptome refluksne bolesti, kao i kod onih koji imaju velike hijatus hernije koje izazivaju tegobe poput povraćanja, bola, nadimanja i krvarenja. Hirurško lečenje se sastoji u vraćanju želuca u njegov normalan anatomski položaj u trbuh, ušivanju otvora na dijafragmi koji je obično jako proširen i formiranju takozvane fundoplikacije (deo želuca se omotava oko jednjaka sa ciljem da se spreči vraćanje želudačnog sadržaja u jednjak) koja može biti totalna i parcijalna.<br><br>
 								<strong>Čir (ulkus) na želucu</strong><br><br>
 								Dovodi se u vezu sa užurbanim načinom života, lošom ishranom, infekcijom sa Helicobacter pylori, stoga je vrlo čest nalaz na želucu. Osim hroničnog bola koji prati ovo stanje i komplikacija do kojih može doći, ovo predstavlja i predisponirajuće mesto nastanka malignog tumora želuca. Iz tih razloga je nekada neophodno operativno lečenje kada medikamentozna terapija ne može pomoći. U zavisnosti od lokalizacije čira, vrši se resekcija tog dela želuca i druge procedure koje su neophodne. Za komplikacije čira se uvek primenjuje hirurško lečenje kao jedini način lečenja.<br><br>
 								<strong>Tumori</strong><br><br>
@@ -331,9 +343,32 @@
 					    </div>
 					    <div id="collapse4" class="panel-collapse collapse">
 						    <div class="panel-body">
-						    	<p class="first">The <strong>funding threshold</strong> is the minimum amount that the business must reach in order that the funding takes place. This threshold is set at 100% for all our projects every time.</p>
-						    	<p>Every project also has a funding limit, which represents the maximum amount that the business can achieve through its crowdinvesting campaign.</p>
-						    	<p>If the funding threshold is not reached during the project duration the funding is not successful and all investors receive their contributions paid back automatically. If the funding limit is already reached before the end of the project life, the funding is successfully completed.</p>
+						    	<strong>Benigni i maligni tumori tankog creva</strong>
+								<p><img src="img/usluge-img/tanko.jpg" class="usluge-img img-right img-first pull-right">Benigni tumori tankog creva mogu dovesti do ozbiljnih komplikacija poput masivnog krvarenja i opstrukcije creva. Potpuno izlečenje se postiže jedino hirurškom intervencijom, odnosno ekscizijom tumora ili resekcijom creva, nakon čega se vrši rekonstrukcija creva, odnosno anastomoza preostalog dela creva.</p>
+								<p>Maligni tumori mogu dovesti do istih komplikacija, ali sa sobom nose jos ozbiljnije komplikacije poput metastaziranja u druge organe. Leče se radikalnom resekcijom creva i resekcijom regionalnih limfnih čvorova.</p>
+								<strong>Inflamatorne bolesti creva (ulcerozni colitis i Kronova bolest)</strong>
+								<p>Hronične inflamatorne bolesti creva sa sobom vremenom nose brojne komplikacije (krvarenje, fistule, apscese, malignitet, toksični megakolon) koje se mogu rešiti jedino hirurgijom. Kod pacijenata sa ulceroznim kolitisom koji zahvata samo debelo crevo primenjuju se sledeći operativni zahvati:</p>
+								<ol>
+									<li>proktokolektomija sa definitivnom terminalnom ileostomom</li>
+									<li>kolektomija sa ileorektoanastomozom</li>
+									<li>koloproktektomija i ilealni pelvični rezervoar (pouch) sa pouch-analnom anastomozom</li>
+								</ol>	
+								<p>Izbor procedure zavisi od dužine trajanja bolesti i stadijuma.</p>
+								<p>Kod pacijenata sa Kronovom bolešću koja zahvata i tanko i debelo crevo rade se česte operacije creva zbog brojnih komplikacija kao što su opstrukcija creva, krvarenje, apscesi, fistule, strikture kolona, perinealne komplikacije. Najčešće se rade segmentne resekcije zahvaćenog dela creva, strikturoplastike.</p>
+								<strong>Divertikulozna bolest debelog creva</strong>
+								<p><img src="img/usluge-img/debelo.jpg" class="usluge-img img-left pull-left">Najčešće zahvata sigmoidni deo debelog creva (kolona) i predstavlja prolapse sluzokože i podsluzokože kroz slabe tačke u mišićnom sloju creva, tj. mesta gde krvni sudovi probijaju zid creva. Često može doći do perforacije (pucanja) ovih proširenja na crevima i tada je indikovana hitna operacija. Najčešće se radi takozvana Hartmanova operacija koja podrazumeva resekciju obolelog dela creva i privremenu terminalnu kolostomu, a rekonstrukcija creva se radi nešto kasnije posle par meseci.</p>
+								<strong>Benigni i maligni tumori debelog creva</strong>
+								<p>Od benignih tumora su najčešći polipi i oni mogu nositi rizik od maligniteta. Zato ih treba hirurški odstraniti i poslati na patohistološku analizu. Uklanjanje polipa se može raditi endoskopskom procedurom. Ako je u pitanju stanje familijarne adenomatozne polipoze (prekancerozno stanje) radi se uklanjanje celog kolona i rektuma uz stvaranje rezervoara od vijuga završnog dela tankog creva.</p>
+								<p>Karcinom debelog creva hirurški se leči u vidu resekcije segmenta kolona sa tumorom i pripadajućih limfnih žlezda. Hirurške procedure obuhvataju:</p>
+								<ol>
+									<li>desnu hemikolektomiju</li>
+									<li>proširenu desnu hemikolektomiju</li>
+									<li>levu hemikolektomiju</li>
+									<li>proširenu levu hemikolektomiju</li>
+									<li>suptotalnu kolektomiju</li>
+									<li>totalnu kolektomiju</li>
+									<li>parcijalne atipične resekcije kolona</li>
+								</ol>
 							</div>
 					    </div>
 					</div>
@@ -347,9 +382,7 @@
 					    </div>
 					    <div id="collapse5" class="panel-collapse collapse">
 						    <div class="panel-body">
-						    	<p class="first">The <strong>funding threshold</strong> is the minimum amount that the business must reach in order that the funding takes place. This threshold is set at 100% for all our projects every time.</p>
-						    	<p>Every project also has a funding limit, which represents the maximum amount that the business can achieve through its crowdinvesting campaign.</p>
-						    	<p>If the funding threshold is not reached during the project duration the funding is not successful and all investors receive their contributions paid back automatically. If the funding limit is already reached before the end of the project life, the funding is successfully completed.</p>
+						    	<img src="img/usluge-img/slepo.jpg" class="usluge-img img-right img-first pull-right">Apendektomija je hirurška procedura koja uključuje otvaranje trbušne duplje i uklanjanje crvuljka (appendix-a) zbog akutne ili hronične upale slepog creva. Apendektomija predstavlja jedan od najčešćih operativnih zahvata u opštoj abdominalnoj hirurgiji. Može se operisati laparoskopskom i otvorenom (klasičnom) tehnikom. Operacija se, bez obzira na tehniku, izvodi u opštoj anesteziji. Nakon laparoskopske operacije, pacijent napušta bolnicu 24 sata posle intervencije, a u slučaju primene klasične operativne tehnike, kod nekomplikovanog zapaljenja slepog creva, nakon 2 dana. Operacija se izvodi u opštoj anesteziji, pacijent sutradan ide kući, i već za nekoliko dana spreman je za najteže fizičke aktivnosti.
 							</div>
 					    </div>
 					</div>
@@ -363,9 +396,20 @@
 					    </div>
 					    <div id="collapse6" class="panel-collapse collapse">
 						    <div class="panel-body">
-						    	<p class="first">The <strong>funding threshold</strong> is the minimum amount that the business must reach in order that the funding takes place. This threshold is set at 100% for all our projects every time.</p>
-						    	<p>Every project also has a funding limit, which represents the maximum amount that the business can achieve through its crowdinvesting campaign.</p>
-						    	<p>If the funding threshold is not reached during the project duration the funding is not successful and all investors receive their contributions paid back automatically. If the funding limit is already reached before the end of the project life, the funding is successfully completed.</p>
+						    	<strong>Analni absces (Abscessus ani)</strong>
+								<p><img src="img/usluge-img/anorektalna.jpg" class="usluge-img img-right img-first pull-right">Karakteriše se oteklinom u blizini čmara, jakim bolovima, a neretko i povišenom temperaturom. Gnojna upala se razvija relativo brzo, za dva-tri dana se proces proširi na kožu oko anusa, koja se zacrveni uz vidljiv otok, izrazito bolno osetljiv kako na dodir tako i spontano. Cilj lečenja je što pre evakuisati nakupljni gnojni sadržaj, koji se nalazi ispod kože na mestu otekline. I to je zapravo jedini i delotvorni način u ovoj fazi bolesti.
+								U kratkoj intravenskoj anesteziji se napravi rez kože iznad otekline i evakuiše sadržaj. Neposredno nakon te intervencje pacijentu je znantno lakše, nema bolova, opšte stanje se poboljšava, a gubi se i povišena telesna temperatura.</p>
+								<p>Uz pomoć antibiotika lečenje je relativno kratko i vrlo brzo je pacijent funkconalno i radno sposoban.</p>
+								<strong>Analna fistula (Fistula ani)</strong>
+								<p>Analna fistula (Fistula ani) je stanje u kome se stvara kanal, koji se proteže od otvora u koži do unutrašnjeg otvora izvodnog kanala periproktalnih žlezda.
+								Ono što prati analnu fistulu je povremeno curenje zamućenog žutog sadržaja na spoljni otvor u koži oko anusa i to je vodeći simptom. Operacija (fistulotomia) rešava problem analne fistule u celosti.</p>
+								<p>Cilj je uvek pronaći unutrašnji otvor (koji se nalazi u analnoj kripti, što je već spomenuto) . Kada se pronađe specijalnom srebrnom sondom, tad je zahvat veoma jednostavan, jer se discizijom prekida most između spoljnog i unutrašnjeg fistuloznog otvora i time trajno sprečavamo mogućnost stvaranja fistule.</p>
+								<p>Važno je dodati da je zahvat potuno bezopasan u rukama iskusnog hirurga, izvodi se u lokalnoj anesteziji, a postoperativni period protiče bez tegoba. Odlazi kući bez tuđe pomoći i isti dan je fuinkcionalno i radno sposoban.</p>
+								<strong>Analna fisura</strong>
+								<p>Analna fisura (uzdužni rascep na sluzokoži analnog kanala) je često oboljenje, praćeno jakim bolom koji nastaje tokom i posle defekacije, a nekada i prisustvom manje količine sveže krvi. Otežava svakodnevnicu pacijenta i stvara neprijatan osećaj kog se pacijent ne može osloboditi sve dok se hirurški ne reši trajno. Operacija uključuje sečenje dela unutrašnjeg analnog sfinktera (lateralna sfinkterotomija), što dovodi do smanjenja spazma analnog kanala. Stolica tada prolazi mnogo lakše, uz mnogo manje iritacije, što dovodi do zaceljenja.</p>
+								<strong>Tumori rektuma</strong>
+								<p>Kao i svi ostali, tumori rektuma mogu biti benigni i maligni. Benigni tumori (polipi) uklanjaju se ekscizijom polipa transanalnim putem ili transanalnom endoskopskom mikrohirurgijom. Karcinom rektuma se leči isključivo hirurškim postupcima koji mogu biti kurativni ili palijativni. Kurativne operacije podrazumevaju potpuno odstranjivanje tumora sa regionalnim limfnim žlezdama, a metoda koja će se raditi zavisi od lokalizacije tumora, pa se tako može raditi totalna amputacija rektuma sa definitivnom kolostomom ili parcijalna resekcija sa privremenom kolostomom uz mogućnost kasnije rekonstrukcije.</p>
+
 							</div>
 					    </div>
 					</div>
@@ -379,9 +423,8 @@
 					    </div>
 					    <div id="collapse7" class="panel-collapse collapse">
 						    <div class="panel-body">
-						    	<p class="first">The <strong>funding threshold</strong> is the minimum amount that the business must reach in order that the funding takes place. This threshold is set at 100% for all our projects every time.</p>
-						    	<p>Every project also has a funding limit, which represents the maximum amount that the business can achieve through its crowdinvesting campaign.</p>
-						    	<p>If the funding threshold is not reached during the project duration the funding is not successful and all investors receive their contributions paid back automatically. If the funding limit is already reached before the end of the project life, the funding is successfully completed.</p>
+								<p><img src="img/usluge-img/kila.jpg" class="usluge-img img-right img-first pull-right">Predstavljaju prolapse normalnih abdominalnih struktura kroz prirodne otvore između mišića i fascija. Najčešće se javljaju preponska (ingvinalna) i femoralna kila, ali mogu biti i pupčana (umbilikalna) , ventralna, inciziona itd. Kila se u potpunosti može izlečiti samo operativno, a ovo je ujedno jedan od najčešćih operativnih zahvata.</p>
+								<p>Operacije kila se mogu svesti na klasične i laparoskopske. Kod klasičnih operacija kile postoji jedan rez, a kod laparoskopskih tri do četiri manja reza. Laparoskopske se rade u opštoj anesteziji, dok se klasične operacije mogu raditi i najčešće se rade u lokalnoj ili regionalnoj anesteziji. Rad u ovim vrstama anestezije je velika prednost jer se izbegavaju opasnosti opšte anestezije, pa tako danas operišemo veliki broj jako starih pacijenata koji su ranije bili osuđeni da žive sa ovom bolešću. Posle ovih operacija, pacijent istog dana ili sutradan ide kući. Pri klasičnim i laparoskopskim operacijama se ugrađuju mrežice. To su protetski materijali koji nam pomažu da pacijent postoperativno praktično nema bolove ili su oni jako slabog inteziteta i da se kile posle operacije ne vraćaju, tj. da je procenat recidiva praktično zanemarljiv.</p>
 							</div>
 					    </div>
 					</div>
@@ -395,9 +438,11 @@
 					    </div>
 					    <div id="collapse8" class="panel-collapse collapse">
 						    <div class="panel-body">
-						    	<p class="first">The <strong>funding threshold</strong> is the minimum amount that the business must reach in order that the funding takes place. This threshold is set at 100% for all our projects every time.</p>
-						    	<p>Every project also has a funding limit, which represents the maximum amount that the business can achieve through its crowdinvesting campaign.</p>
-						    	<p>If the funding threshold is not reached during the project duration the funding is not successful and all investors receive their contributions paid back automatically. If the funding limit is already reached before the end of the project life, the funding is successfully completed.</p>
+						    	<p><img src="img/usluge-img/dojka.gif" class="usluge-img img-right img-first pull-right">Hirurška metoda kojom se odstranjuje tumor iz dojke, bilo da je on benigni ili maligni.</p>
+								<p>Rak dojke se prvenstveno leči hirurškom operacijom dojke. Dodatni tretman može biti u obliku zračenja i/ili hormonske terapije u zavisnosti od konzilijarnog mišljenja.</p>
+								<p>Operacija dojke, obuhvata jedan kvadrant ili celu dojku. U trenutku procedure, kada se vrši operacija dojke, mogu se izvaditi i drugi potrebni nalazi ili eventualno izvršiti odstranjivanje limfinih žledzdi u pazuhu.</p>
+								<p>Nije svaki čvor u dojci zloćudan i sa lošom prognozom, česti su i fibroadenomi dojke, često i kod mlađih žena od 30. do 40. Godine. To su benigni tumefakti, jasno ograničeni od okolnog tkiva, pokretni na palpaciju, bez izmenjene kože iznad promene. Ukoliko postoje indikacije za to, vrši se tumerektomija (operacija dojke , odnosno njenog fibroadenoma) , izvodi se u lokalnoj ili opštoj anesteziji, veličina reza zavisi od obima promene, ali je uglavnom mali i ožiljak nakon nekog vremena biva gotovo nevidljiv.</p>
+								<p>Moguća je u ugradnja implantanata nakon mastektomije.</p>
 							</div>
 					    </div>
 					</div>
@@ -411,9 +456,8 @@
 					    </div>
 					    <div id="collapse9" class="panel-collapse collapse">
 						    <div class="panel-body">
-						    	<p class="first">The <strong>funding threshold</strong> is the minimum amount that the business must reach in order that the funding takes place. This threshold is set at 100% for all our projects every time.</p>
-						    	<p>Every project also has a funding limit, which represents the maximum amount that the business can achieve through its crowdinvesting campaign.</p>
-						    	<p>If the funding threshold is not reached during the project duration the funding is not successful and all investors receive their contributions paid back automatically. If the funding limit is already reached before the end of the project life, the funding is successfully completed.</p>
+						    	<p><img src="img/usluge-img/stitna.jpg" class="usluge-img img-right img-first pull-right">Funkcija štitne žlezde može biti ubrzana (Bazedovljeva bolest) ili usporena (Hašimotov tireoiditis) is a sobom nosi niz simptoma do kojih dovode povećana, odnosno smanjena koncentracija hormona štitne žlezde. Osim ovih stanja, česti su tumori štitne žlezde (papilarni, folikularni, medularni, limfom) koji mogu biti vrlo agresivni i da brzo daju metastaze, zato je neophodna brza i dobra dijagnostika i radikalno hirurško lečenje koje obuhvata totalnu ili subtotalnu tiroidektomiju.</p>
+								<p>Operacije štitne žlezde se izvode uz mali operativni rez, stopa izlečenja je visoka, nizak je stepen komplikacija, kratak oporavak. Operaciju izvode specijalisti endokrine hirurgije. Radi se u opštoj endotrahealnoj anesteziji pod nadzorom anesteziologa. Najčešće se rade: odstranjenje jednog režnja štitnjače (lobektomija) sa patohistološkom analizom, parcijalna lobektomija ili totalna tireoidektomija (potpuno uklanjanje žlezde).</p>
 							</div>
 					    </div>
 					</div>
@@ -427,9 +471,10 @@
 					    </div>
 					    <div id="collapse10" class="panel-collapse collapse">
 						    <div class="panel-body">
-						    	<p class="first">The <strong>funding threshold</strong> is the minimum amount that the business must reach in order that the funding takes place. This threshold is set at 100% for all our projects every time.</p>
-						    	<p>Every project also has a funding limit, which represents the maximum amount that the business can achieve through its crowdinvesting campaign.</p>
-						    	<p>If the funding threshold is not reached during the project duration the funding is not successful and all investors receive their contributions paid back automatically. If the funding limit is already reached before the end of the project life, the funding is successfully completed.</p>
+						    	<p><img src="img/usluge-img/dlaka.jpg" class="usluge-img img-right img-first pull-right">Urasla dlaka (pilonidalna bolest ili pilonidalni sinus) klinički se prezentuje kao drenirajući sinus ili akutna gnojna kolekcija u području trtice. U osnovi, radi se o cisti u kojoj se nalazi gomila dlaka. Postoji više vrsta hirurških metoda lečenja, a suština je da se obolelo tkivo mora odstraniti uz, koliko je moguće, poštedu same kože.</p>
+								<p>Ukoliko postoji komunikacija sinusa i debelog creva onda je operacija teža i komplikovanija i podrazumeva fistulektomiju, tj. nalaženje i podvezivanje kanala koji povezuje debelo crevo sa sinusom. Ukoliko komunikacija ne postoji operacija je mnogo lakša i podrazumeva eksciziju, tj. hirursko isecanje bolesnog, upaljenog tkiva. Posle uklanjanja obolelog tkiva možemo se odlučiti za otvorenu ili zatvorenu metodu. To najčesce zavisi od jačine upale, ali preporuka je da se radi uvek otvorena.</p>
+								<p>Razlika je u tome da nakon otvorene metode pacijent dolazi na svakodnevna previjanje dvadesetak dana, dok nakon zatvorene metode rana mnogo brže zaraste, ali postoji mogućnost recidiva, tj. povratka bolesti.</p>
+
 							</div>
 					    </div>
 					</div>
@@ -443,9 +488,7 @@
 					    </div>
 					    <div id="collapse11" class="panel-collapse collapse">
 						    <div class="panel-body">
-						    	<p class="first">The <strong>funding threshold</strong> is the minimum amount that the business must reach in order that the funding takes place. This threshold is set at 100% for all our projects every time.</p>
-						    	<p>Every project also has a funding limit, which represents the maximum amount that the business can achieve through its crowdinvesting campaign.</p>
-						    	<p>If the funding threshold is not reached during the project duration the funding is not successful and all investors receive their contributions paid back automatically. If the funding limit is already reached before the end of the project life, the funding is successfully completed.</p>
+						    	<p><img src="img/usluge-img/nokat.jpg" class="usluge-img img-right img-first pull-right">Urastao nokat (Unguis incarnatus) je stečena promena koja najčešće nastaje na palčevima stopala. Razlozi za urastanje nokta u okolno meko tkivo prsta su razni, ali najčešči su dva: tesna obuća i nepravilna nega. Sama operacija izvodi se u lokalnoj anesteziji, traje veoma kratko i veoma je komforna, i za operatera i za pacijenta. Moguće je raditi ablaciju nokatne ploče (odvajanje cele nokatne ploče od ležišta) ili parcijalno uklanjanje nokatne ploče. Odstranjenjem urasle bočne ivice nokatne ploče sve do korena i uklanjanjem granulacionog inficiranog mekog tkiva uz rub uraslog nokta, problem se trajno rešava. Pacijenti su bez tegoba i zadovoljni estetskim efektom te novoformiranim izgledom nokatne ploče, ali i time što više nema prepreke u zadovoljenju modnih prohteva.</p>
 							</div>
 					    </div>
 					</div>
@@ -459,9 +502,12 @@
 					    </div>
 					    <div id="collapse12" class="panel-collapse collapse">
 						    <div class="panel-body">
-						    	<p class="first">The <strong>funding threshold</strong> is the minimum amount that the business must reach in order that the funding takes place. This threshold is set at 100% for all our projects every time.</p>
-						    	<p>Every project also has a funding limit, which represents the maximum amount that the business can achieve through its crowdinvesting campaign.</p>
-						    	<p>If the funding threshold is not reached during the project duration the funding is not successful and all investors receive their contributions paid back automatically. If the funding limit is already reached before the end of the project life, the funding is successfully completed.</p>
+								<p><img src="img/usluge-img/vene.jpg" class="usluge-img img-right img-first pull-right">Oboljenje površinskih vena ispoljava se slikom proširenih vena, koje nazivamo varikoziteti vena.</p>
+								<p>Izuzetno je važno napomenuti da oboljenja vena, ukoliko se ne leče, mogu imati fatalne posledice.</p>
+								<p>Hirurško lečenje oboljenja proširenih vena jedina je metoda koja nudi mogućnost izlečenja, jer podrazumeva uklanjanje mesta nastanka proširenih vena, kao i uklanjanje proširenih i izvijuganih površinskih vena.</p>
+								<p>U našoj bolnici uklanjanje proširenih vena obavlja se prema metodama i procedurama vodećih evropskih klinika za flebologiju pri čemu se posebno vodi računa o minimalnom riziku samog zahvata, kao i o brzom oporavku i ozdravljenju.</p>
+								<p>Zajedničko svim metodama hirurškog lečenja oboljenja vena je to da se retko ponovno javljaju proširene vene (recidivi), zahvat je minimalno invazivan, a ožiljci nestaju nakon nekog vremena u potpunosti.</p>
+								<p>Zahvat se izvodi ambulantno u lokalnoj anesteziji i ne traje više od sat i po. Već nakon 15 do 20 minuta nakon operacije odlazite kući bez da vam je potrebna nečija pomoć, a ležanje se ne preporučuje.</p>
 							</div>
 					    </div>
 					</div>
@@ -475,9 +521,34 @@
 					    </div>
 					    <div id="collapse13" class="panel-collapse collapse">
 						    <div class="panel-body">
-						    	<p class="first">The <strong>funding threshold</strong> is the minimum amount that the business must reach in order that the funding takes place. This threshold is set at 100% for all our projects every time.</p>
-						    	<p>Every project also has a funding limit, which represents the maximum amount that the business can achieve through its crowdinvesting campaign.</p>
-						    	<p>If the funding threshold is not reached during the project duration the funding is not successful and all investors receive their contributions paid back automatically. If the funding limit is already reached before the end of the project life, the funding is successfully completed.</p>
+						    	<strong>MLADEŽI</strong>
+								<p><img src="img/usluge-img/mladezi.jpg" class="usluge-img img-right img-first pull-right">Raniji stav da je uklanjanje mladeža opasno po zdravlje je u potpunosti netačan i poticao je iz neznanja.</p>
+								<p>U zavisnosti od tipa mladeža oni se mogu otklanjati klasičnom hirurškom ekscizijom ili tehnikom radiotalasa. Tehnika uklanjanja mladeža radiotalasima je hirurška tehnika kod koje se ekscizija vrši elektrodom umesto skalpelom.</p>
+								<p>Patohistološki pregled mladeža je obavezan, bez obzira kojom metodom se mladež uklanja i da li se uklanja iz esteskih ili zdravstvenih razloga.</p>
+								<p>Dubina i širina ekscizije bez obzira kojom tehnikom se radi zavisi prvenstveno od tipa mladeža, lokalizacije i da li se uklanja iz estetskih razloga ili se na mladežu uočavaju neke rizične promene u strukturi, boji i obliku.</p>
+								<strong>PREDNOSTI UKLANJANJA MLADEŽA RADIOTALASIMA</strong>
+								<p>Najveća prednost radiotalasa je minimalna trauma tkiva, pa samim tim i lakše i bolje zarastanje rana bez ožiljaka ili sa jedva primetnim ožiljcima.
+								Radiotalasna metoda je bezbedna, beskrvna i bezbolna (koristi se lokalni anestetik u obliku kreme) i toliko elegantna da pacijenti nemaju osećaj da se podvrgavaju hirurškoj intervenciji što je od presudnog značaja za smanjenje stresa i osećaj komfora pacijenta i pri tom daje izvanredan estetski rezultat.</p>
+								<strong>Ožiljci</strong>
+								<p><img src="img/usluge-img/oziljci.jpg" class="usluge-img img-left pull-left">Ožiljci su rezultat zarastanja rana na koži nastalih povredom, hirurškom intervencijom, ili nekim kožnim oboljenjem (npr. akne ili boginje). Nastanak ožiljaka je prirodan proces kojim se normalna struktura kože zamenjuje tkivom ožiljka koje je drugačijeg sastava.</p>
+								<p>Postoje brojne tehnike kojima se ožiljci mogu smanjiti. Ožiljci nastali na mestu trauma i hirurških intervencija mogu se smanjiti abrazijom površine ožiljka radiotalasima kojom se ožiljak izravnava. Ukoliko je u pitanju veliki i hipertrofični ožiljak, najpre se obavi hirurška intervencija uz dalji lokalni tretman posle intervencije.</p>
+								<p>Treba imati na umu, da se izgled ožiljaka može poboljšati, da se ožiljak može i smanjiti, ali da se ne može potpuno ukloniti, odnosno, da se tkivo ožiljka ne može izlečiti tako da ima izgled i strukturu zdrave kože. Zato je za uspešno lečenje ožiljaka neophodan dogovor između lekara i pacijenta o tome šta pacijent može da očekuje i šta mu najviše smeta u vezi ožiljka i u odnosu na to da se odredi najbolji način lečenja.</p>
+								<strong>FIBROMI</strong>
+								<p><img src="img/usluge-img/fibromi.jpg" class="usluge-img img-right img-first pull-right">Fibromi su benigni izraštaji od vezivnog tkiva, dosta česti, sa sporim rastom. Javljaju se kao pojedinačni ili multipni izraštaji na koži.</p>
+								<p>Najčešće se javljaju u predelu glave na koži kapaka, vrata, na trupu i pregibnim regijama – pazuhu i preponama. Okruglog su ili ovalnog oblika, jasno ograničeni od okoline.
+								Uklanjanjem fibroma se sprečava njihovo dalje širenje po koži jer je u nekim slučajevima dokazano prisustvo virusa.</p>
+								<p>Takođe je veoma bitan i estetski aspekt lečenja jer koža sa papilomima izgleda grubo i neuredno, a njihovim odstranjivanjem se ponovo dobija zdrava lepa koža bez ovih neprijatnih izraslina.</p>
+								<p>Metode lečenja su odstranjivanje laserom ili radiotalasna metoda. Na osnovu obimnih studija rađenih i u svetu i kod nas radiotalasna metoda je pokazala daleko najveću efikasnost.
+								Osim efikasnosti radiotalasna metoda daje i najbolji estetski rezultat jer se fibromi otklanjaju u potpunosti samo jednom intervencijom u trajanju od nekoliko sekundi, bezbolno, bez krvarenja i bez ožiljaka.</p>
+								<strong>KONDILOMI</strong>
+								<p><img src="img/usluge-img/kondilomi.jpg" class="usluge-img img-left pull-left">Kondilomi su bradavičasti izraštaji na koži anogenitalne regije izazvane humanim papiloma virusima.</p>
+								<p>Kondilomi, poznati kao polne bradavice, najčešće se javljaju u predelu polnih organa i anusa.
+								Uklanjanjem kondiloma se sprečava njihovo dalje širenje po koži obolelog i sprečava se širenje na druge osobe polnim kontaktom.</p>
+								<p>Metode lečenja su tečni azot, elektrokauterizacija, odstranjivanje laserom ili radiotalasna metoda. Na osnovu obimnih studija rađenih i u svetu i kod nas radiotalasna metoda je pokazala daleko najveću. Osim efikasnosti radiotalasna metoda daje i najbolji estetski rezultat jer se kondilomi otklanjaju u potpunosti samo jednom intervencijom u trajanju od nekoliko sekundi, bezbolno, bez krvarenja i bez ožiljaka. Za samo par minuta moguće je odstaniti 20-30 promena. I sami pacijenti su najzadovoljniji primenom radiotalasa. Uklanjanje je jednostavno i bezbolno uz korišćenje anestezije u obliku kreme.</p>
+								<strong>BRADAVICE</strong>
+								<p><img src="img/usluge-img/bradavice.jpg" class="usluge-img img-right img-first pull-right">Bradavice su benigne promene na koži izazvane virusima i sve su kontagiozne – zarazne, mogu se preneti drugim osobama i autoinokulabilne što znači da se u koži pacijenta rasejavaju, šire i povećava im se broj.</p>
+								<p>S obzirom na relativno brzo širenje bradavica po koži neophodno je njihovo što hitnije lečenje – uklanjanje radiotalasima u jednom aktu da bi se eliminisala mogućnost daljeg rasejavanja.</p>
+								<p>Za trajno uklanjanje bradavica idealno sredstvo su radiotalasi. Brojnim kliničkim studijama je dokazano da radiotalasi daju značajno bolje rezultate od drugih metoda (tečni azot, keratolitici ili termokauter) jer su recidivi izuzetno retki. Skidanje bradavica radiotalasima je bezbolno (koristi se anestezija u obliku kreme) i potreban je samo jedan tretman.</p>
 							</div>
 					    </div>
 					</div>
@@ -487,9 +558,11 @@
 		</div>
 	</section>
 
-	<section class="container">
-		<blockquote class="big-message">For us ideas are the starting point. But it is the teams and their engagement, who turn visions into reality!
-		</blockquote>
+	<section class="container" id="otimu">
+		<div class="outer-wrapper">
+		<h2 class="text-center">O timu</h2>
+		<p>Briga o našim pacijentima nam je prioritet. Stoga smo zahvalni što su najbolji specijalisti pristali da budu deo našeg tima kako bismo mogli da pružimo najbolje moguće lečenje i negu. Naši konsultanti su vrhunski stručnjaci u rangu sa svetskim hirurzima sa kojima rade, deo su transplantacionog tima koji je zaslužan za najveći broj uspešno urađenih transplantacija jetre u našoj zemlji, koji neprestano unapređuju svoje znanje i veštine učestvujući na brojnim kongresima i baveći se edukacijom mladih lekara u najboljim ustanovama. Zahvaljujući njihovom dugogodišnjem iskustvu i kvalitetu koji poseduju, sa sigurnošću im možemo prepustiti brigu o našim pacijentima jer svakom pacijentu pristupaju sa potpunom posvećenošću, pažnjom i ozbiljnošću, primenjujući individualno lečenje za svakog posebno. Izdvajamo i tim medicinskih sestara sa velikim iskustvom i znanjem, koji je uvek spreman da pomogne pacijentima, da im pruži psihološku podršku i njihovim porodicama od trenutka kada dođu u bolnicu, kroz postavljanje dijagnoze, sam tok lečenja i oporavka.</p>
+		</div>
 	</section>
 
 	<section class="container-fluid" id="team">
@@ -497,8 +570,8 @@
 
 		<section class="container team-members">
 			<div class="crowd-content-title team-members-title">
-				<h2>The Founding Team </h2>
-				<h3>Who is behind the idea of CONDA.</h3>
+				<h2>Tim naših stručnjaka i konsultanata</h2>
+				<h4>Transplantacioni tim hirurga sa najvećim brojem urađenih transplantacija</h4>
 			</div>
 			<div class="divider"></div>
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 single-team-member">
@@ -507,12 +580,41 @@
 				</div>
 				<div class="team-member-text">
 					<div class="team-member-name">
-						Paul Pöltner - Managing Partner Finance &amp; Business Development
+						<p>Potpukovnik asistent dr med. Milan Jovanović specijalista opšte hirurgije</p>
 					</div>
 					<div class="team-text">
-						<div class="toggle" data-toggle="collapse" data-target="#more1"><span><span class="news-link"> More about Paul... </span></span></div>
+						<div class="toggle" data-toggle="collapse" data-target="#more1"><span><span class="news-link"> Biografija...</span></span></div>
 						<div id="more1" class="collapse">
-							A typical jack of all trades. Paul studied software engineering and internet computing as well as information management at the technical university in Vienna, in addition to business administration at the Business School of Vienna. In 2001 he set up an IT service provider business, which he managed successfully for several years and sold in 2008. Subsequently Paul began his career at TPA Horwath as a Trainee Tax Adviser. As Co-Founder and Managing Director Paul is “the brain behind” CONDA.
+							<strong>Opšti podaci</strong>
+							<p>Rođen 8. novembra 1976. godine</p>
+							<strong>Obrazovanje</strong>
+							<p>Doktorska disertacija u fazi izrade</p>
+							<p>2010. Specijalizacija iz opšte hirurgije</p>
+							<p>Medicinski fakultet univerziteta u Kragujevcu</p>
+							<strong>Kretanje u službi</strong>
+							<p>od 2015. sekretar Katedre za hirurške nauke 1</p>
+							<p>od 2015. asistent za predmet hirurgija Medicinskog fakulteta Vojnomedicinske akademije Univerziteta odbrane u Beogradu</p>
+							<p>od 2010. Lekar specijalista hirurg, Klinika za opštu hirurgiju, VMA</p>
+							<p>2005. - 2010. Lekar na specijalizaciji iz opšte hirurgije, VMA Beograd</p>
+							<p>2003. - 2005. Upravnik GA Ćuprija</p>
+							<strong>Stipendije i nagrade</strong>
+							<p>Stipendista Republičke fondacije za razvoj naučnog podmlatka Srbije</p>
+							<p>Stipendista ambasade Norveške</p>
+							<p>2012. nagrada načelnika VMA</p>
+							<p>2011. nagrada načelnika VMA</p>
+							<strong>Predmeti edukacije</strong>
+							<p>Transplantacija jetre</p>
+							<strong>Stručna usavršavanja</strong>
+							<p>2011. Hilversum, Holandija, Napredni kurs iz zbrinjavanja povređenih i obolelih u borbenim dejstvima</p>
+							<p>2011. Zagreb, Hrvatska, transplantacija jetre</p>
+							<strong>Članstva</strong>
+							<p>Sekretar Hirurške sekcije Srpskog lekarskog društva (SLD)</p>
+							<p>Predsednik podružnice SLD-a u Vojnomedicinskoj akademiji</p>
+							<strong>Oblasti istraživanja</strong>
+							<p>Transplantacija jetre</p>
+							<strong>Publikacije</strong>
+							<p>Ukupno 21 rad</p>
+							<p>2 knjige</p>
 						</div>
 
 					</div>
@@ -525,18 +627,251 @@
 				</div>
 				<div class="team-member-text">
 					<div class="team-member-name">
-						Daniel Horak - Managing Partner Sales &amp; Marketing
+						<p>Načelnik odeljenja za hepatobilijarnu i pankreasnu hirurgiju profesor dr sc. med. Darko Mirković, specijalista opšte hirurgije</p>
 					</div>
 					<div class="team-text">
-						<div class="toggle" data-toggle="collapse" data-target="#more2"><span><span class="news-link"> More about Daniel... </span></span></div>
+						<div class="toggle" data-toggle="collapse" data-target="#more2"><span><span class="news-link">Biografija</span></span></div>
 						<div id="more2" class="collapse">
-							Daniel graduated from the technical high school in Vienna with a bachelor’s degree and a master’s degree in business informatics, as well as a master’s degree in corporate management from the Vienna Business School. Even before CONDA he was gaining experience in the area of business start-ups with his own start-up founded in 2007: Spoken Language System. As Co-Founder and Managing Director of CONDA Daniel is the driving force in the area of marketing and sales.
+							<strong>Opšti podaci</strong>
+							<p>Rođen 18.04.1959. godine</p>
+							<strong>Obrazovanje</strong>
+							<p>2013. Subspecijalizacija iz onkologije</p>
+							<p>1997. Doktor medicinskih nauka iz oblasti hirurgije</p>
+							<p>1986 - 1990. Specijalizacija opšte i vaskularne hirurgije, VMA Beograd 1978 - 1983. Medicinski fakultet u Beogradu</p>
+							<strong>Kretanje u službi</strong>
+							<p>2011. Načelnik odeljenja za hepatobilijarnu i pankreasnu hirurgiju
+							2011 - 2015. Predsednik stručnog tima za transplantaciju organa Ministarstva zdravlja 2010 - 2011. Načelnik Odeljenja abdominalne hirurgije</p>
+							<p>2007 - 2010. Načelnik Odeljenja koloproktologije</p>
+							<p>2006 - 2007. Načelnik Odeljenja za endokrinu hirurgiju i hirurgiju dojke</p>
+							<p>1990 - 2005. Lekar u Odeljenju koloproktologije</p>
+							<p>Od 2011. Šef Katedre za hirurgiju 1</p>
+							<p>2006 - 2011. Zamenik šefa Katedre za hirurgiju 1</p>
+							<strong>Stručno usavršavanje</strong>
+							<p>2005. Univerzitet Pittsburgh (SAD), predmet edukacije - hepatobilijarna hirurgija, transplantacija organa</p>
+							<strong>Članstvo</strong>
+							<p>Hirurška sekcija SLD-a</p>
+							<p>Srpsko lekarsko društvo</p>
+							<p>Evropski pankreasni klub Hepatobiliopankreasna asocijacija</p>
+							<strong>Stručni radovi i knjige</strong>
+							<p>Autor i koautor u 41 radu objavljenom u celosti i 24 rada objavljena u formi abstrkta</p>
+							<p>Recezent u časopisima i uredništvo</p>
+							<p>Vojnosanitetski pregled, Srpski arhiv za celokupno lekarstvo, Crnogorski medicinski Arhiv</p>
 						</div>
 
 					</div>
 				</div>
 			</div>
 		</section>
+	</section>
+
+	<section class="container-fluid text-center" id="cenovnik">
+		<div class="col-md-6 col-md-offset-3 pricelist-wrapper">
+			    <div id="pricelist">
+			      <h2>
+			        <a id="cenovnik-link" data-toggle="collapse" data-parent="#accordion" href="#cenovnik-accordion">
+			        CENOVNIK NAŠIH USLUGA</a>
+			      </h4>
+			    </div>
+			    <div id="cenovnik-accordion" class="panel-collapse collapse">
+			      <div class="panel-body">
+			      	
+			      	<table class="table table-hover table-responsive table-striped pricelist">
+						<tr>
+							<th>Naziv usluge</th>
+							<th>Cena</th>
+						</tr>			
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+						<tr>
+							<td>Naziv usluge</td>
+							<td>Cena</td>
+						</tr>
+					</table>
+			      	
+			      </div>
+			    </div>
+		</div>
+	</section>
+
+	<section class="container-fluid" id="map">
+		<br>
+		<h2 class="text-center">Kontakt</h2>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 map-wrapper">
+			<iframe width="100%" height="450" frameborder="0" style="border:0; margin:0; padding:0" zoomControl=disable src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJa8XO-2hwWkcRRxcHs97aHWQ&destination=place_id:ChIJX7UCqmxwWkcRQQAMt-uXoVw&key=AIzaSyAWNQYvbUwbHFYKc8m7Y27t5a-8n2Zn5nY" allowfullscreen></iframe>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<div class="kontakt-wrapper">
+				<p> Telefon: <br>(+381) 62 264 140 </p>
+				<p> Email:<br> elitemed@elite-medical-center.rs</p>
+				<p>Adresa:<br>Elite medical center<br>ul. Kapetana Miodraga Miletića,<br>Voždovac,<br>11000 Beograd<br>Srbija</p>
+			</div>
+		</div>		
 	</section>
 
 
@@ -550,11 +885,7 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<ul class="nav navbar-nav">
-						<li><a class="footer-link" href="#">O nama</a></li>
-						<li><a class="footer-link" href="#">Mapa</a></li>
-						<li><a class="footer-link" href="#">Kontakt</a></li>
-					</ul>
+					<p>&copy; Elite medical center 2016</p>
 				</div>
 			</div>
 		</div>
