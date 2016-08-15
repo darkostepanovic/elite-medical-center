@@ -314,6 +314,11 @@ h1 {
 	text-decoration: underline;
 }
 
+.contact-header {
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
 
 footer {
 	background-color: rgba(255, 255, 255, 0.7);

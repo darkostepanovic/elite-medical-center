@@ -1,0 +1,28 @@
+User-Agent: *
+Disallow: 
+
+User-Agent: Googlebot
+Allow: /
+
+User-Agent: Googlebot-Mobile
+Allow: /
+
+User-Agent: Googlebot-Image
+Allow: /
+
+User-Agent: Mediapartners-Google
+Allow: /
+
+User-Agent: Slurp
+Disallow: /
+
+User-Agent: msnbot
+Allow: /
+
+User-Agent: msnbot-media
+Allow: /
+
+User-Agent: Teoma
+Disallow: /
+
+Sitemap: http://www.elite-medical-center.rs/sitemap.xml
